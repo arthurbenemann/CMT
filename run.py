@@ -212,7 +212,7 @@ else:
 			if key == 'q':
 				break
 			if key == 'd':
-				ipdb.set_trace()
+				ipdb.set_trace()  # @UndefinedVariable
 
 		#Remember image
 		im_prev = im_gray
